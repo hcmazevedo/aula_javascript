@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" type="text/javascript"></script>
+    <title>Aula de Javascript</title>
+</head>
+<body onload="obrigado()">
+    <button id="btnClick" onclick="botaoOn()" ondblclick="botaoOff()">Clique aqui</button>
+    <button id="btnRedirect" onclick="redirecionar()">Redirect</button>
+    <h3 id="agradecimento"></h3>
+    <hr>
+    <span onmouseover="mouseOn(this)" onmouseout="mouseOut(this)">Passe o mouse aqui</span>
+    <br>
+    <span onmouseover="mouseOn(this)" onmouseout="mouseOut(this)">Quer ficar bonito?</span>
+    <br>
+    Selecione:
+    <select name="" id="opcao" onchange="selecao(this)">
+        <option value="">--------</option>
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+    <h3 id="selecionado"></h3>
+</body>
+</html>
